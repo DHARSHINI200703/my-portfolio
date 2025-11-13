@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .main1 {
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(65, 65, 190);
+            color: rgb(65, 65, 190);
+        }
+
+        .main2 {
+            width: 100vw;
+            height: 80vh;
+
+        }
+
+        .main3 {
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(65, 65, 190);
+        }
+
+        .main41 {
+            color: rgb(65, 65, 190);
+
+            top: 200px;
+            left: 50px;
+            position: absolute;
+        }
+
+        .main42 {
+            color: rgb(65, 65, 190);
+            top: 280px;
+            left: 50px;
+            position: absolute;
+        }
+
+        .main43 {
+            color: rgb(65, 65, 190);
+            top: 400px;
+            left: 50px;
+            position: absolute;
+            font-size: medium;
+        }
+
+        .main5 {
+            left: 50vw;
+            bottom: 30vh;
+            top: 10vh;
+            width: 100px;
+            height: 90vh;
+            position: absolute;
+            right: 0px;
+        }
+
+        .main5 img {
+            height: 80vh;
+            width: 50vw;
+        }
+
+        .main6 {
+            width: 40vw;
+            top: 500px;
+            left: 50px;
+            position: absolute;
+        }
+
+        .main6 button {
+            width: 10vw;
+            height: 5vh;
+
+        }
+
+        .main61 {
+            width: 40vw;
+            top: 500px;
+            left: 250px;
+            position: absolute;
+        }
+
+        .main61 button {
+            width: 10vw;
+            height: 5vh;
+        }
+
+
+        .main7 {
+
+            position: absolute;
+            right: 150px;
+            top: 123px;
+
+        }
+
+        .main7 img {
+            height: 70vh;
+            width: 30vw;
+            border-radius: 300px;
+        }
+
+        .main71 {
+
+            position: absolute;
+            right: 150px;
+            top: 123px;
+            display: none;
+
+        }
+
+        .main71 img {
+            height: 70vh;
+            width: 30vw;
+            border-radius: 300px;
+        }
+
+        .main8 {
+            position: absolute;
+            display: none;
+
+            border-radius: 300px;
+            position: absolute;
+            right: 150px;
+            top: 123px;
+
+        }
+
+        .main8 img {
+            height: 70vh;
+            width: 30vw;
+            border-radius: 300px;
+        }
+
+        .main9 {
+            width: 40vw;
+            top: 500px;
+            left: 220px;
+            position: absolute;
+        }
+
+        .main9 button {
+            width: 10vw;
+            height: 5vh;
+        }
+
+        .main91 {
+            width: 40vw;
+            top: 500px;
+            left: 250px;
+            position: absolute;
+        }
+
+        .main91 button {
+            width: 10vw;
+            height: 5vh;
+        }
+
+        .main92 {
+            width: 40vw;
+            top: 500px;
+            left: 50px;
+            position: absolute;
+            display: none;
+        }
+
+        .main92 button {
+            width: 10vw;
+            height: 5vh;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main1">
+
+    </div>
+    <div class="main2"></div>
+    <div class="main3"></div>
+    <div class="main41">
+        <h1 id="h1">HI,THERE</h1>
+    </div>
+    <div class="main42">`
+        <h1 id="h2">DHARSHINI.L.S</h1>
+    </div>
+    <div class="main43">
+        <h1 id="h3">
+            B.E.CSE
+        </h1>
+    </div>
+    <div class="main5">
+        <img src="https://img.freepik.com/free-photo/abstract-paper-background-concept_23-2148812669.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="">
+    </div>
+    <div class="main6"><button id="b">ABOUT</button></div>
+    <div class="main61"><button id="f">ABOUT</button></div>
+    <div class="main7" id="hidden"><img src="dharsh.png" alt="portfolio image"></div>
+    <div class="main71" id="hid"><img src="dharsh.png" alt=""></div>
+    <div class="main8" id="s">
+        <img src="d.png.png" alt="">
+    </div>
+    <div class="main91" id="d">
+        <button>BACK</button>
+    </div>
+    <div class="main92" id="g">
+        <button>BACK</button>
+    </div>
+    <script>document.getElementById('b').onclick = function () {
+            document.getElementById('h1').innerHTML = "II YEAR";
+            document.getElementById('h2').innerHTML =
+                "AREA OF INTEREST:WEB DEVELOPEMENT ";
+            document.getElementById('h3').innerHTML = "HOBBIES:DRAWING,LISTENING TO MUSIC";
+            document.getElementById('hidden').style.display = 'none';
+            document.getElementById('s').style.display = 'block';
+
+        }
+        document.getElementById('d').onclick = function () {
+            document.getElementById('h1').innerHTML = "HI,THERE";
+            document.getElementById('h2').innerHTML = "DHARSHINI.L.S ";
+            document.getElementById('h3').innerHTML = "B.E.CSE";
+            document.getElementById('s').style.display = 'none';
+            document.getElementById('hid').style.display = 'block';
+
+        }
+
+    </script>
+</body>
+
+</html>
